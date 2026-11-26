@@ -1,12 +1,10 @@
 /**
 * Each new Taste object has a shared label, sweetness score, 
 * and tartness score per group. They are final to prevent 
-* reassignment. Mutiple apples can refer to the same Taste object. 
+* reassignment. Multiple apples can refer to the same Taste object. 
 * 
 * Groups are decided based on four custom ranges from 1 to 10,
-* since the website only provides a specturm with a bar showing
-* how sweet/tart the apple variety is. 
-*
+* referencing LaBonne's apple taste spectrum.  
 */
 public final class Taste {
     public static final Taste VERY_TART = new Taste("Very Tart", 1, 4);
