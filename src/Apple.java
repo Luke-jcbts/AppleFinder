@@ -1,8 +1,5 @@
 /**
-* Represents a fetched apple variety.
-* 
-* The class stores information about the variety,
-* including its name, url, and website description.
+* Represents an apple variety and stores its information.
 */
 public final class Apple {
     private final String name;
