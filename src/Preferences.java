@@ -9,7 +9,6 @@ public final class Preferences {
         if (sweetness < 1 || sweetness > 4 || tartness < 1 || tartness > 4) {
             throw new IllegalArgumentException("Please enter a whole number from 1 to 4");
         }
-
         this.sweetness = sweetness;
         this.tartness = tartness;
     }
